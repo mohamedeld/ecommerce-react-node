@@ -8,8 +8,9 @@ process.on("uncaughtException", (err) => {
 });
 
 // config
-
-dotenv.config(".env");
+if (process.env.NODE_ENV !== "PRODUCTION") {
+  dotenv.config(".env");
+}
 
 // connect db
 connectDatabase();
