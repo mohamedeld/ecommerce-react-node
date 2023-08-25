@@ -1,3 +1,3 @@
-export const server = "https://ecommerce-react-node-pi.vercel.app/api/v2";
+export const server = "ecommerce-react-node-pi.vercel.app/api/v2";
 
-export const backend_url = "https://ecommerce-react-node-pi.vercel.app/";
+export const backend_url = "ecommerce-react-node-pi.vercel.app/";
